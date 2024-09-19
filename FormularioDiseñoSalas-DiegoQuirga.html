@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form method="post" action="#">
+    <fieldset>
+        <legend>Formulario de Banda Musical Favorita</legend>
+
+        <br>
+        <br>
+
+        <label for="usuario">Usuario: </label>
+            <input type="text" name="usuario" id="usuario" required>
+            <br>
+
+        <label for="contra">Contraseña: </label>
+            <input type="password" name="contra" id="contra" required>
+            
+
+        <br>
+        <br>
+
+        <label for="nbanda">Nombre de la Banda: </label>
+            <input type="text" name="nbanda" id="nbanda" required>
+        <br>
+
+
+        <label for="pais">País de la Banda: </label>
+            <select name="pais" id="pais">
+                <option value="">--Seleccione--</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Inglaterra">Inglaterra</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+            </select>
+        <br>
+        
+
+        <label for="descripcion">Descripción del Porqué es tu Banda Favorita: </label>
+            <br>
+            <textarea name="descripcion" cols="20" rows="10" id="descripcion" required></textarea>
+
+        <br>
+        <br>
+
+        <label for="archivo">Foto Banda: </label>
+            <br>
+            <input type="file" name="foto" id="archivo">
+        <br>
+
+
+        <label>La Banda es: </label>
+            <br>
+            <input type="radio" name="banda" value="solista" id="sol">
+            <label for="sol">Solista.</label>
+            <br>
+            <input type="radio" name="banda" value="grupo" id="gru" checked>
+            <label for="gru">Grupo Musical.</label>
+        
+        <br>
+        <br>
+
+        <label>Tipo</label>
+        <br>
+        <input type="checkbox" name="rock" value="rock" id="rock">
+        <label for="rock">Rock</label>
+
+        <input type="checkbox" name="reggaeton" value="reggaeton" id="reggaeton">
+        <label for="reggaeton">Reggaeton</label>
+
+        <input type="checkbox" name="reggae" value="reggae" id="reggae">
+        <label for="reggae">Reggae</label>
+
+        <br>
+
+        <input type="checkbox" name="disco" value="disco" id="disco">
+        <label for="disco">Disco</label>
+
+        <input type="checkbox" name="trap" value="trap" id="trap">
+        <label for="trap">Trap</label>
+
+        <input type="checkbox" name="rap" value="rap" id="rap">
+        <label for="rap">Rap</label>
+
+        <input type="checkbox" name="otro" value="otro" id="otro">
+        <label for="otro">Otro</label>
+
+        <br>
+
+        <input type="checkbox" name="pop" value="pop" id="pop">
+        <label for="pop">Pop</label>
+
+        <input type="checkbox" name="techno" value="techno" id="techno">
+        <label for="techno">Techno</label>
+
+        <input type="checkbox" name="clasica" value="clasica" id="clasica">
+        <label for="clasica">Clasica</label>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar">
+        <input type="Reset" value="Borrar" disabled>
+
+
+    </fieldset>
+</form>
+    
+</body>
+</html>
